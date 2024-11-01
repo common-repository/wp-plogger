@@ -1,0 +1,5 @@
+<?php
+// replace the contents of index.php in the plogger folder with this,
+// so that WordPress can render the page correctly
+define('WP_USE_THEMES', true);
+require dirname(dirname(__FILE__)) . '/wp-blog-header.php';
